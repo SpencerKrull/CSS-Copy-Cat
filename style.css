@@ -1,0 +1,17 @@
+li {
+    list-style: none;
+}
+
+.topmost-nav li {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+
+.topmost-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
