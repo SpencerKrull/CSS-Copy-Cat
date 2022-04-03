@@ -1,3 +1,7 @@
+* {
+    border: 1px solid red;
+}
+
 li {
     list-style: none;
 }
@@ -25,5 +29,21 @@ li {
 
 .recs-nav ul {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 80%;
+}
+
+.video-nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    align-content: flex-end;
     justify-content: space-evenly;
 }
